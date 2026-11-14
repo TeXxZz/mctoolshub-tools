@@ -1,5 +1,5 @@
-// Builds a local preview of every tool into ./site
-// Usage: node scripts/build.mjs   (no dependencies, Node 18+)
+// Local preview of all tools, written to ./site
+// node scripts/build.mjs
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -55,7 +55,7 @@ function page({ title, description, canonical, depth, main }) {
   </header>
   <main>${main}</main>
   <footer class="site-footer">
-    <div class="footer-bottom"><span>MCToolsHub tools · MIT licensed · Not affiliated with Mojang or Microsoft.</span><span>Live site: <a class="text-link" href="${LIVE}">mctoolshub.com</a></span></div>
+    <div class="footer-bottom"><span>MCToolsHub tools, MIT license. Not affiliated with Mojang or Microsoft.</span><span>Live site: <a class="text-link" href="${LIVE}">mctoolshub.com</a></span></div>
   </footer>
   <script src="${up}assets/tools.js" defer></script>
 </body>
@@ -77,11 +77,11 @@ function build() {
   const card = (t) => `<a class="tool-card" data-tool-card data-tool-name="${esc((t.title + " " + t.description + " " + (t.keywords || []).join(" ")).toLowerCase())}" href="./${t.slug}/"><span class="badge">${esc(t.badge || "Tool")}</span><h3>${esc(t.h1)}</h3><p>${esc(t.description)}</p><span class="card-link">Open tool</span></a>`;
 
   write("index.html", page({
-    title: "MCToolsHub — Open-Source Minecraft Server Tools",
-    description: "Free, open-source tools for Minecraft server owners.",
+    title: "MCToolsHub tools (local preview)",
+    description: "MCToolsHub tools, local preview.",
     canonical: `${LIVE}/tools`,
     depth: 0,
-    main: `<section class="page-hero container"><p class="eyebrow">Open source · MIT</p><h1>Minecraft server tools</h1><p>${tools.length} free tools for server owners. Everything runs in your browser.</p><div class="tool-search-wrap"><input class="tool-search" data-tool-search placeholder="Search tools, e.g. MOTD, icon, SRV, tellraw"></div></section><section class="container section"><div class="tool-grid">${tools.map(card).join("")}</div></section>`,
+    main: `<section class="page-hero container"><p class="eyebrow">Local preview</p><h1>Minecraft server tools</h1><p>${tools.length} tools.</p><div class="tool-search-wrap"><input class="tool-search" data-tool-search placeholder="Search tools, e.g. MOTD, icon, SRV, tellraw"></div></section><section class="container section"><div class="tool-grid">${tools.map(card).join("")}</div></section>`,
   }));
 
   for (const t of tools) {
@@ -108,7 +108,8 @@ function build() {
   }
 
   for (const f of ["style.css", "tools.js", "favicon.png"]) write(`assets/${f}`, fs.readFileSync(path.join(ROOT, "assets", f)));
-  console.log(`Built ${tools.length} tools into ./site — preview with: python3 -m http.server -d site 8000`);
+  console.log(`Built ${tools.length} tools into site/`);
+  console.log("Preview: python3 -m http.server -d site 8000");
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) build();
