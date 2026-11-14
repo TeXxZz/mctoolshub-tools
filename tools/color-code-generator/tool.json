@@ -1,0 +1,33 @@
+{
+  "title": "Minecraft Color Code Generator | Legacy & Hex Color Preview",
+  "description": "Generate Minecraft color codes, preview formatted text, and copy legacy or hex color formats for server configs, chat, ranks, and menus.",
+  "badge": "Fast",
+  "group": "Text tools",
+  "keywords": [
+    "minecraft color code generator",
+    "minecraft color codes",
+    "minecraft hex color"
+  ],
+  "h1": "Minecraft Color Code Generator",
+  "intro": "Pick colors, preview text, and copy Minecraft formatting codes for chat, ranks, menus, and server branding.",
+  "toolType": "colors",
+  "howTo": [
+    "Pick a color or copy a legacy Minecraft color code from the table.",
+    "Preview your text before using it in a server config.",
+    "Copy MiniMessage or legacy hex output depending on what your plugin supports."
+  ],
+  "faqs": [
+    [
+      "What are Minecraft color codes?",
+      "Minecraft color codes are formatting codes used to color text in chat, MOTDs, ranks, menus, and plugin messages."
+    ],
+    [
+      "Should I use legacy codes or MiniMessage?",
+      "Use the format your plugin supports. Modern plugins often support MiniMessage, while older configs may use legacy codes."
+    ],
+    [
+      "Do hex colors work everywhere?",
+      "No. Hex colors usually require modern Minecraft versions and plugin support."
+    ]
+  ]
+}

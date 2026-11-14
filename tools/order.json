@@ -1,0 +1,16 @@
+[
+  "motd-generator",
+  "color-code-generator",
+  "gradient-text-generator",
+  "server-icon-converter",
+  "server-properties-generator",
+  "srv-record-generator",
+  "tellraw-generator",
+  "command-generator",
+  "whitelist-generator",
+  "ram-calculator",
+  "velocity-config-generator",
+  "geyser-floodgate-checklist",
+  "votifier-setup-helper",
+  "server-launch-checklist"
+]

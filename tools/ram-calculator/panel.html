@@ -1,0 +1,11 @@
+<div class="tool-panel" data-tool="ram">
+      <div class="two-col">
+        <label>Expected players<input id="ram-players" class="tool-input single" type="number" min="1" max="500" value="20"></label>
+        <label>Plugins/mods count<input id="ram-plugins" class="tool-input single" type="number" min="0" max="300" value="35"></label>
+        <label>Server type<select id="ram-type" class="tool-input single"><option value="vanilla">Vanilla</option><option value="paper" selected>Paper/Purpur plugins</option><option value="modded">Modded / modpack</option></select></label>
+        <label>World style<select id="ram-world" class="tool-input single"><option value="normal" selected>Normal SMP</option><option value="large">Large world / heavy farms</option><option value="minigame">Minigames / smaller maps</option></select></label>
+      </div>
+      <button class="button primary generate-button" data-generate type="button">Calculate RAM</button>
+      <div class="result-card" id="ram-result"></div>
+      <p class="muted-note">This is an estimate, not a guarantee. CPU, storage, view distance, entities, chunks, plugins, and optimization matter too.</p>
+    </div>

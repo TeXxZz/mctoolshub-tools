@@ -1,0 +1,11 @@
+<div class="tool-panel" data-tool="srv">
+      <div class="two-col">
+        <label>Join domain<input id="srv-domain" class="tool-input single" value="play.example.com"></label>
+        <label>Target host<input id="srv-target" class="tool-input single" value="server.example.com"></label>
+        <label>Server port<input id="srv-port" class="tool-input single" type="number" min="1" max="65535" value="25566"></label>
+        <label>Priority<input id="srv-priority" class="tool-input single" type="number" value="0"></label>
+        <label>Weight<input id="srv-weight" class="tool-input single" type="number" value="5"></label>
+      </div>
+      <button class="button primary generate-button" data-generate type="button">Generate SRV Records</button>
+      <label class="field-label" for="srv-output">Generated DNS records</label><textarea id="srv-output" class="tool-output" rows="8" readonly></textarea><button class="button primary copy-button" data-copy-target="srv-output">Copy DNS records</button>
+    </div>

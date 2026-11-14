@@ -1,0 +1,34 @@
+{
+  "title": "Minecraft SRV Record Generator | Connect Without Port",
+  "description": "Generate Minecraft SRV and A record values so players can join using a clean domain without typing a port.",
+  "badge": "DNS",
+  "group": "DNS & networking",
+  "keywords": [
+    "minecraft srv record",
+    "srv record generator",
+    "minecraft domain without port"
+  ],
+  "h1": "Minecraft SRV Record Generator",
+  "intro": "Generate the DNS records commonly used to let players join your Minecraft server with a clean domain name.",
+  "toolType": "srv",
+  "howTo": [
+    "Enter the domain players should type, like play.example.com.",
+    "Enter the target host and actual server port.",
+    "Create the matching A/CNAME and SRV records at your DNS provider.",
+    "Wait for DNS to update and test from Minecraft."
+  ],
+  "faqs": [
+    [
+      "What does an SRV record do for Minecraft?",
+      "It lets a domain point to a specific Minecraft port so players do not need to type the port manually."
+    ],
+    [
+      "Do I need an A record too?",
+      "Usually yes. The SRV target must point to a hostname that resolves to your server IP."
+    ],
+    [
+      "Does SRV work for Bedrock?",
+      "Bedrock DNS support differs from Java setups. This tool is mainly for Java server domain setups."
+    ]
+  ]
+}

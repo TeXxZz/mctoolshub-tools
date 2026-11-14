@@ -1,0 +1,33 @@
+{
+  "title": "Minecraft Gradient Text Generator | MiniMessage & Legacy Hex",
+  "description": "Generate Minecraft gradient text for ranks, chat, menus, scoreboards, and server branding. Copy MiniMessage or legacy hex output.",
+  "badge": "Useful",
+  "group": "Text tools",
+  "keywords": [
+    "minecraft gradient text generator",
+    "minimessage gradient",
+    "luckperms gradient"
+  ],
+  "h1": "Minecraft Gradient Text Generator",
+  "intro": "Create smooth Minecraft text gradients for rank prefixes, chat formats, tab lists, scoreboard titles, menu names, and server branding.",
+  "toolType": "gradient",
+  "howTo": [
+    "Enter the text you want to style.",
+    "Choose a start color and end color.",
+    "Copy MiniMessage for modern plugins or legacy hex for configs that use per-character hex codes."
+  ],
+  "faqs": [
+    [
+      "What is a Minecraft gradient?",
+      "A gradient gradually blends text from one color into another color."
+    ],
+    [
+      "Where can I use gradient text?",
+      "Common places include rank prefixes, chat formats, tab lists, scoreboard titles, menu names, and server branding."
+    ],
+    [
+      "Why does my gradient not work?",
+      "Your plugin or Minecraft version may not support the output format you copied. Try another format or check the plugin docs."
+    ]
+  ]
+}

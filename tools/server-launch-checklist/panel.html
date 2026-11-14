@@ -1,0 +1,11 @@
+<div class="tool-panel" data-tool="launch">
+  <div class="two-col">
+    <label>Server type<select id="launch-type" class="tool-input single"><option>Survival SMP</option><option>Lifesteal</option><option>SkyBlock</option><option>Minigames</option><option>Network</option></select></label>
+    <label>Public launch timeline<select id="launch-time" class="tool-input single"><option>This week</option><option selected>This month</option><option>Planning phase</option></select></label>
+    <label>Crossplay?<select id="launch-crossplay" class="tool-input single"><option>No</option><option selected>Yes, Java + Bedrock</option></select></label>
+    <label>Self-hosted?<select id="launch-hosting" class="tool-input single"><option>No, hosted</option><option>Yes, home/VPS</option></select></label>
+  </div>
+  <button class="button primary generate-button" data-generate type="button">Generate Launch Checklist</button>
+  <textarea id="launch-output" class="tool-output" rows="14" readonly></textarea>
+  <button class="button primary copy-button" data-copy-target="launch-output">Copy checklist</button>
+</div>

@@ -1,0 +1,34 @@
+{
+  "title": "Minecraft server.properties Generator | Create Server Config Online",
+  "description": "Generate a Minecraft server.properties file with common Java server settings like MOTD, max players, difficulty, PvP, whitelist, and view distance.",
+  "badge": "Config",
+  "group": "Server setup",
+  "keywords": [
+    "server.properties generator",
+    "minecraft server properties",
+    "minecraft server config"
+  ],
+  "h1": "Minecraft server.properties Generator",
+  "intro": "Create a clean server.properties file for a Java server with common settings and explanations.",
+  "toolType": "properties",
+  "howTo": [
+    "Fill in the basic server settings.",
+    "Copy or download the generated server.properties file.",
+    "Replace or edit your existing server.properties file carefully.",
+    "Restart the server after changing the config."
+  ],
+  "faqs": [
+    [
+      "What is server.properties?",
+      "server.properties is the main configuration file used by Minecraft Java servers."
+    ],
+    [
+      "Should I set online-mode=false?",
+      "Usually no. For public servers, online-mode should normally stay true unless you understand proxy setups and authentication risks."
+    ],
+    [
+      "Do I need to restart after editing server.properties?",
+      "Yes. Restarting is the safest way to apply changes."
+    ]
+  ]
+}

@@ -1,0 +1,20 @@
+<div class="tool-panel" data-tool="motd">
+      <label class="field-label" for="motd-input">MOTD text</label>
+      <textarea id="motd-input" class="tool-input" rows="4">&aWelcome to &lMy Server&r
+&7Survival, SMP, and events!</textarea>
+      <div class="button-row code-buttons" aria-label="Minecraft color code buttons"></div>
+      <div class="button-row format-buttons" aria-label="Minecraft formatting buttons"></div>
+      <div class="button-row compact-actions">
+        <button class="button primary generate-button" data-generate type="button">Generate MOTD</button>
+        <button class="button secondary" id="center-motd" type="button">Center MOTD lines</button>
+        <a class="button secondary" href="https://github.com/jpenilla/MiniMOTD" rel="noopener">Advanced MOTD with MiniMOTD</a>
+      </div>
+      <label class="field-label" for="motd-output">server.properties output</label>
+      <textarea id="motd-output" class="tool-output" rows="4" readonly></textarea>
+      <button class="button primary copy-button" data-copy-target="motd-output">Copy server.properties MOTD</button>
+      <label class="field-label" for="motd-mini-output">MiniMOTD / MiniMessage-style reference</label>
+      <textarea id="motd-mini-output" class="tool-output" rows="4" readonly></textarea>
+      <button class="button secondary copy-button" data-copy-target="motd-mini-output">Copy MiniMOTD reference</button>
+      <div class="preview-card"><span class="preview-title">Live preview</span><div id="motd-preview" class="minecraft-preview"></div></div>
+      <p class="muted-note">Vanilla server.properties MOTDs use legacy formatting. If you want RGB gradients, proxy-level MOTDs, and cleaner formatting, use MiniMOTD.</p>
+    </div>

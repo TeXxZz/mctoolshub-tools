@@ -1,0 +1,12 @@
+<div class="tool-panel" data-tool="tellraw">
+      <div class="two-col">
+        <label>Target selector<input id="tell-target" class="tool-input single" value="@a"></label>
+        <label>Text<input id="tell-text" class="tool-input single" value="Join our Discord"></label>
+        <label>Color<select id="tell-color" class="tool-input single"><option>white</option><option selected>yellow</option><option>green</option><option>aqua</option><option>red</option><option>gold</option></select></label>
+        <label>Bold<select id="tell-bold" class="tool-input single"><option>false</option><option>true</option></select></label>
+        <label>Click URL<input id="tell-url" class="tool-input single" placeholder="https://discord.gg/example"></label>
+        <label>Hover text<input id="tell-hover" class="tool-input single" placeholder="Click to open"></label>
+      </div>
+      <button class="button primary generate-button" data-generate type="button">Generate Tellraw Command</button>
+      <label class="field-label" for="tellraw-output">Generated command</label><textarea id="tellraw-output" class="tool-output" rows="5" readonly></textarea><button class="button primary copy-button" data-copy-target="tellraw-output">Copy command</button>
+    </div>

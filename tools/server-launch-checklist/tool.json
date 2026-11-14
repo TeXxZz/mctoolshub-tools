@@ -1,0 +1,34 @@
+{
+  "title": "Minecraft Server Launch Checklist | Pre-Launch Setup Helper",
+  "description": "Generate a launch checklist for Minecraft server owners covering security, performance, voting, DNS, backups, rules, and listing pages.",
+  "badge": "Launch",
+  "group": "Planning",
+  "keywords": [
+    "minecraft server launch checklist",
+    "start a minecraft server",
+    "minecraft server setup checklist"
+  ],
+  "h1": "Minecraft Server Launch Checklist",
+  "intro": "Build a pre-launch checklist so you do not forget DNS, backups, permissions, voting, security, and listing basics before inviting players.",
+  "toolType": "launch",
+  "howTo": [
+    "Select the type of server you are launching.",
+    "Choose whether you need crossplay and whether you self-host.",
+    "Copy the checklist and work through it before inviting public players.",
+    "Use the related guides for any item you do not understand yet."
+  ],
+  "faqs": [
+    [
+      "Do I need everything before opening?",
+      "No, but backups, security, permissions, and basic performance checks should be done before public launch."
+    ],
+    [
+      "Should I list the server before launch?",
+      "You can prepare the listing early, then promote it when voting, Votifier, and join instructions are ready."
+    ],
+    [
+      "What matters most for first impressions?",
+      "Players need to understand how to join, what the server offers, and whether it feels active and stable."
+    ]
+  ]
+}

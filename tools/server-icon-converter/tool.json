@@ -1,0 +1,34 @@
+{
+  "title": "Minecraft Server Icon Converter | 64x64 server-icon.png Maker",
+  "description": "Convert an image into a 64x64 Minecraft server icon and download it as server-icon.png for your Java server.",
+  "badge": "Image",
+  "group": "Server setup",
+  "keywords": [
+    "minecraft server icon",
+    "server-icon.png",
+    "minecraft icon converter"
+  ],
+  "h1": "Minecraft Server Icon Converter",
+  "intro": "Upload an image, crop it to a square preview, resize it to 64x64, and download it as server-icon.png.",
+  "toolType": "icon",
+  "howTo": [
+    "Upload your logo or image.",
+    "Check the 64x64 preview.",
+    "Download the generated server-icon.png file.",
+    "Upload the file to the root folder of your Minecraft Java server and restart the server."
+  ],
+  "faqs": [
+    [
+      "What size should a Minecraft server icon be?",
+      "A Java server icon should be 64x64 pixels and saved as a PNG file named server-icon.png."
+    ],
+    [
+      "Where do I upload server-icon.png?",
+      "Upload it to the main/root folder of your server, usually the same place as server.properties."
+    ],
+    [
+      "Why is my server icon not showing?",
+      "Check that the file is named exactly server-icon.png, is PNG format, is 64x64, and that the server has been restarted."
+    ]
+  ]
+}

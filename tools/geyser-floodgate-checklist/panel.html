@@ -1,0 +1,11 @@
+<div class="tool-panel" data-tool="geyser">
+  <div class="two-col">
+    <label>Setup type<select id="geyser-type" class="tool-input single"><option value="single">Single Paper/Purpur server</option><option value="velocity" selected>Velocity proxy network</option><option value="standalone">Geyser Standalone</option></select></label>
+    <label>Bedrock port<input id="geyser-port" class="tool-input single" value="19132"></label>
+    <label>Java address players use<input id="geyser-java" class="tool-input single" value="play.example.com"></label>
+    <label>Allow Bedrock without Java account?<select id="geyser-floodgate" class="tool-input single"><option value="yes" selected>Yes, use Floodgate</option><option value="no">No, Java account required</option></select></label>
+  </div>
+  <button class="button primary generate-button" data-generate type="button">Generate Crossplay Checklist</button>
+  <textarea id="geyser-output" class="tool-output" rows="12" readonly></textarea>
+  <button class="button primary copy-button" data-copy-target="geyser-output">Copy checklist</button>
+</div>

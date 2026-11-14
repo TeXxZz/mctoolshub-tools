@@ -1,0 +1,35 @@
+{
+  "title": "Velocity Config Generator | Minecraft Proxy Forwarding Helper",
+  "description": "Generate safe starter Velocity proxy config snippets, backend server entries, and Paper forwarding settings for a Minecraft network.",
+  "badge": "Proxy",
+  "group": "Network setup",
+  "keywords": [
+    "velocity config generator",
+    "minecraft proxy config",
+    "velocity forwarding secret",
+    "paper velocity forwarding"
+  ],
+  "h1": "Velocity Config Generator",
+  "intro": "Build starter config snippets for a Velocity proxy network, including backend server entries, modern forwarding, and the Paper settings that must match it.",
+  "toolType": "velocity",
+  "howTo": [
+    "Enter the public proxy bind address players connect to.",
+    "Enter the backend server name and address exactly as Velocity should see it.",
+    "Use a private forwarding secret and put the same value in Velocity and your Paper backend.",
+    "Keep backend Minecraft ports closed from the public internet whenever possible."
+  ],
+  "faqs": [
+    [
+      "Should backend servers be online-mode false?",
+      "With a Velocity proxy, backend servers normally run behind the proxy and must be configured for Velocity player information forwarding. Do not expose trusted backend ports publicly."
+    ],
+    [
+      "Is modern forwarding enough security?",
+      "No. It helps forward identity safely, but you should still firewall backend servers."
+    ],
+    [
+      "Can this replace the official Velocity docs?",
+      "No. It gives a starter snippet and checklist. Always compare with the current PaperMC Velocity docs before going live."
+    ]
+  ]
+}

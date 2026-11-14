@@ -1,0 +1,38 @@
+{
+  "title": "Minecraft MOTD Generator | Colors, Formatting & Live Preview",
+  "description": "Create a Minecraft server MOTD with colors, formatting, examples, and live preview. Copy the output for your server.properties file.",
+  "badge": "Popular",
+  "group": "Text tools",
+  "keywords": [
+    "minecraft motd generator",
+    "server motd",
+    "minecraft motd colors"
+  ],
+  "h1": "Minecraft MOTD Generator",
+  "intro": "Write a custom server message of the day, add Minecraft color codes, preview it, and copy the result for your server.properties file.",
+  "toolType": "motd",
+  "howTo": [
+    "Type the text you want players to see in the multiplayer server list.",
+    "Use color and formatting buttons to insert Minecraft formatting codes.",
+    "Copy the output and paste it after motd= inside server.properties.",
+    "Restart or reload your server so the new MOTD appears in the server list."
+  ],
+  "faqs": [
+    [
+      "What is a Minecraft MOTD?",
+      "A Minecraft MOTD is the message shown below your server name in the multiplayer server list."
+    ],
+    [
+      "Where do I put the MOTD?",
+      "For a normal Java server, paste the output into the motd setting inside server.properties."
+    ],
+    [
+      "Can I use colors in a server MOTD?",
+      "Yes. Many Java server setups support legacy color and formatting codes such as &a, &b, &l, and &r."
+    ],
+    [
+      "Does vanilla MOTD support RGB hex colors?",
+      "Vanilla server.properties MOTD support is limited. Many modern proxy or plugin setups support richer formats, but test before publishing."
+    ]
+  ]
+}

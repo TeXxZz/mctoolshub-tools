@@ -1,0 +1,34 @@
+{
+  "title": "Minecraft Server RAM Calculator | Estimate Memory for Players & Plugins",
+  "description": "Estimate Minecraft server RAM based on player count, plugins, modpacks, and world type. Get a practical starting point for hosting.",
+  "badge": "Hosting",
+  "group": "Planning",
+  "keywords": [
+    "minecraft server ram calculator",
+    "how much ram minecraft server",
+    "minecraft hosting ram"
+  ],
+  "h1": "Minecraft Server RAM Calculator",
+  "intro": "Estimate a sensible starting amount of RAM for a Minecraft server based on players, plugins, and server type.",
+  "toolType": "ram",
+  "howTo": [
+    "Enter the number of players you expect online at once.",
+    "Add the approximate number of plugins or mods.",
+    "Choose your server type and world style.",
+    "Use the result as a starting point, then monitor real usage."
+  ],
+  "faqs": [
+    [
+      "Is RAM the only thing that matters for Minecraft hosting?",
+      "No. CPU performance, disk speed, network, view distance, entities, and plugin quality matter a lot."
+    ],
+    [
+      "Can too much RAM hurt performance?",
+      "It can make garbage collection less predictable in some setups. Allocate what you need, then tune based on real monitoring."
+    ],
+    [
+      "Should modpacks use more RAM?",
+      "Usually yes. Modded servers often need more memory than vanilla or Paper servers."
+    ]
+  ]
+}

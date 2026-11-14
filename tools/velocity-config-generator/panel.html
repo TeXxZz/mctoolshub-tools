@@ -1,0 +1,15 @@
+<div class="tool-panel" data-tool="velocity">
+  <div class="two-col">
+    <label>Proxy bind address<input id="velocity-bind" class="tool-input single" value="0.0.0.0:25565"></label>
+    <label>Forwarding secret<input id="velocity-secret" class="tool-input single" value="change-this-secret"></label>
+  </div>
+  <label class="field-label">Backend servers</label>
+  <div id="velocity-servers" class="server-list-editor">
+    <div class="server-row" data-velocity-row><input class="tool-input single velocity-server-name" value="lobby" aria-label="Server name"><input class="tool-input single velocity-server-address" value="127.0.0.1:25566" aria-label="Backend address"></div>
+    <div class="server-row" data-velocity-row><input class="tool-input single velocity-server-name" value="survival" aria-label="Server name"><input class="tool-input single velocity-server-address" value="127.0.0.1:25567" aria-label="Backend address"></div>
+  </div>
+  <div class="button-row compact-actions"><button class="button secondary" id="add-velocity-server" type="button">+ Add server</button><button class="button primary generate-button" data-generate type="button">Generate Velocity Snippets</button></div>
+  <label class="field-label" for="velocity-output">Generated setup notes</label>
+  <textarea id="velocity-output" class="tool-output" rows="18" readonly></textarea>
+  <button class="button primary copy-button" data-copy-target="velocity-output">Copy snippets</button>
+</div>

@@ -1,0 +1,10 @@
+<div class="tool-panel" data-tool="gradient">
+      <label class="field-label" for="gradient-text">Text</label><input id="gradient-text" class="tool-input single" value="MCToolsHub">
+      <div class="two-col"><label>Start color<input id="gradient-start" class="color-picker" type="color" value="#4ade80"></label><label>End color<input id="gradient-end" class="color-picker" type="color" value="#38bdf8"></label></div>
+      <label>Choose output format<select id="gradient-format" class="tool-input single"><option value="minimessage">MiniMessage &lt;gradient&gt;</option><option value="amphex" selected>Plugin hex &#RRGGBB</option><option value="sectionhex">Section hex §x§R§R...</option><option value="legacyamp">Ampersand hex &x&R&R...</option></select></label>
+      <button class="button primary generate-button" data-generate type="button">Generate Gradient</button>
+      <div class="preview-card"><span class="preview-title">Preview</span><div id="gradient-preview" class="big-preview"></div></div>
+      <label class="field-label" for="gradient-selected">Selected format output</label><textarea id="gradient-selected" class="tool-output" rows="3" readonly></textarea><button class="button primary copy-button" data-copy-target="gradient-selected">Copy Selected Format</button>
+      <div class="output-grid two-outputs"><label>MiniMessage<textarea id="gradient-mini" class="tool-output" rows="2" readonly></textarea></label><label>&# hex<textarea id="gradient-amphex" class="tool-output" rows="3" readonly></textarea></label><label>§x hex<textarea id="gradient-section" class="tool-output" rows="3" readonly></textarea></label><label>&x hex<textarea id="gradient-legacy" class="tool-output" rows="3" readonly></textarea></label></div>
+      <p class="muted-note">Different plugins expect different formats. MiniMessage is common in modern Paper plugins. The &#RRGGBB format is common in many config-based plugins. The §x and &x formats are useful when a plugin expects per-character legacy hex.</p>
+    </div>

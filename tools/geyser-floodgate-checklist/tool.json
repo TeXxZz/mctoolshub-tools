@@ -1,0 +1,35 @@
+{
+  "title": "Geyser & Floodgate Checklist Generator | Java Bedrock Crossplay Setup",
+  "description": "Generate a beginner-friendly checklist for installing Geyser and Floodgate on a single server or Velocity proxy network.",
+  "badge": "Crossplay",
+  "group": "Network setup",
+  "keywords": [
+    "geyser setup checklist",
+    "floodgate setup",
+    "java bedrock crossplay",
+    "geyser floodgate generator"
+  ],
+  "h1": "Geyser & Floodgate Checklist Generator",
+  "intro": "Choose your server layout and generate a clear crossplay checklist for Java plus Bedrock support.",
+  "toolType": "geyser",
+  "howTo": [
+    "Pick whether Geyser will run on the backend server, proxy, or standalone.",
+    "Choose the Bedrock port players should use, usually 19132.",
+    "Decide whether Floodgate should allow Bedrock players without Java accounts.",
+    "Follow the linked guide and official docs before opening the server publicly."
+  ],
+  "faqs": [
+    [
+      "Do I install Geyser on every backend server?",
+      "For Velocity networks, Geyser is usually installed on the proxy, not every backend."
+    ],
+    [
+      "Do I need Floodgate?",
+      "Use Floodgate if you want Bedrock players to join without owning a Java Edition account."
+    ],
+    [
+      "Why can Bedrock not connect?",
+      "Common causes include closed UDP port 19132, wrong auth-type, wrong plugin placement, or proxy/backend forwarding mistakes."
+    ]
+  ]
+}

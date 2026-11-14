@@ -1,0 +1,33 @@
+{
+  "title": "Minecraft Command Generator | Broadcast, Title & Actionbar",
+  "description": "Generate simple Minecraft commands for broadcast messages, titles, subtitles, and actionbar announcements.",
+  "badge": "Admin",
+  "group": "Commands",
+  "keywords": [
+    "minecraft command generator",
+    "minecraft title generator",
+    "minecraft broadcast command"
+  ],
+  "h1": "Minecraft Command Generator",
+  "intro": "Generate common admin commands for broadcasts, titles, subtitles, and actionbar messages.",
+  "toolType": "commands",
+  "howTo": [
+    "Choose the type of command you need.",
+    "Enter the target and message.",
+    "Copy and test the command in-game or in console."
+  ],
+  "faqs": [
+    [
+      "What commands can this generate?",
+      "This tool focuses on simple broadcast, title, subtitle, and actionbar command formats."
+    ],
+    [
+      "Does this support every Minecraft version?",
+      "Command syntax can vary by version, so test before using it on a live server."
+    ],
+    [
+      "Can I use color?",
+      "For title-style JSON commands, this tool includes a basic color option."
+    ]
+  ]
+}

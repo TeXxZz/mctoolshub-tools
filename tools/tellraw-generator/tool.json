@@ -1,0 +1,34 @@
+{
+  "title": "Minecraft Tellraw Generator | JSON Chat Command Builder",
+  "description": "Build simple Minecraft tellraw JSON commands with text, colors, bold formatting, hover text, and clickable links.",
+  "badge": "Command",
+  "group": "Commands",
+  "keywords": [
+    "minecraft tellraw generator",
+    "tellraw json",
+    "minecraft json text"
+  ],
+  "h1": "Minecraft Tellraw Generator",
+  "intro": "Create a simple tellraw command for announcements, clickable links, hover text, and server messages.",
+  "toolType": "tellraw",
+  "howTo": [
+    "Choose the target selector, usually @a for all players or @p for nearest player.",
+    "Enter the text and formatting options.",
+    "Optionally add a click URL and hover text.",
+    "Copy the generated command and test it in-game or in console."
+  ],
+  "faqs": [
+    [
+      "What is tellraw?",
+      "tellraw is a Minecraft command for sending JSON-formatted chat messages."
+    ],
+    [
+      "Can tellraw make clickable links?",
+      "Yes. JSON text can include click events for URLs or commands."
+    ],
+    [
+      "Should I test commands first?",
+      "Yes. Always test on a private server or with a single player before broadcasting."
+    ]
+  ]
+}

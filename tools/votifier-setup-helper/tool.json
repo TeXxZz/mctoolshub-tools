@@ -1,0 +1,35 @@
+{
+  "title": "Minecraft Votifier Setup Helper | NuVotifier Vote Checklist",
+  "description": "Generate a Votifier setup checklist for vote sites, NuVotifier, reward plugins, ports, keys, and testing votes.",
+  "badge": "Votes",
+  "group": "Server growth",
+  "keywords": [
+    "votifier setup",
+    "nuvotifier setup",
+    "minecraft vote rewards",
+    "minecraft server voting"
+  ],
+  "h1": "Minecraft Votifier Setup Helper",
+  "intro": "Create a practical checklist for connecting a Minecraft server to voting sites with NuVotifier and a reward plugin.",
+  "toolType": "votifier",
+  "howTo": [
+    "Install NuVotifier and a reward plugin.",
+    "Choose a port your host allows and copy the public key.",
+    "Add the host, port, and public key to each voting/listing site.",
+    "Send a test vote and confirm the reward fires in console."
+  ],
+  "faqs": [
+    [
+      "Does NuVotifier give rewards by itself?",
+      "No. NuVotifier listens for votes. You need a reward plugin or custom listener to give rewards."
+    ],
+    [
+      "Which port should I use?",
+      "Use a port allowed by your host or firewall. Avoid reusing the Minecraft join port unless your setup specifically requires it."
+    ],
+    [
+      "Why are votes not arriving?",
+      "Common causes are closed ports, wrong public key, wrong host, proxy/backend plugin placement, or reward plugin config errors."
+    ]
+  ]
+}

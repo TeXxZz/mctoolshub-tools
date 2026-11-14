@@ -1,0 +1,10 @@
+<div class="tool-panel" data-tool="commands">
+      <div class="two-col">
+        <label>Command type<select id="cmd-type" class="tool-input single"><option value="say">Say/Broadcast</option><option value="title">Title</option><option value="subtitle">Subtitle</option><option value="actionbar">Actionbar</option></select></label>
+        <label>Target<input id="cmd-target" class="tool-input single" value="@a"></label>
+        <label>Message<input id="cmd-message" class="tool-input single" value="Welcome to the server!"></label>
+        <label>Color<select id="cmd-color" class="tool-input single"><option>white</option><option selected>yellow</option><option>green</option><option>aqua</option><option>red</option><option>gold</option></select></label>
+      </div>
+      <button class="button primary generate-button" data-generate type="button">Generate Command</button>
+      <label class="field-label" for="cmd-output">Generated command</label><textarea id="cmd-output" class="tool-output" rows="4" readonly></textarea><button class="button primary copy-button" data-copy-target="cmd-output">Copy command</button>
+    </div>

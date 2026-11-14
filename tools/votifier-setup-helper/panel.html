@@ -1,0 +1,11 @@
+<div class="tool-panel" data-tool="votifier">
+  <div class="two-col">
+    <label>Server IP / hostname<input id="vote-host" class="tool-input single" value="play.example.com"></label>
+    <label>Votifier port<input id="vote-port" class="tool-input single" value="8192"></label>
+    <label>Reward plugin<select id="vote-plugin" class="tool-input single"><option>VotingPlugin</option><option>SuperbVote</option><option>Custom listener</option></select></label>
+    <label>Network type<select id="vote-network" class="tool-input single"><option>Single server</option><option selected>Proxy network</option></select></label>
+  </div>
+  <button class="button primary generate-button" data-generate type="button">Generate Votifier Checklist</button>
+  <textarea id="votifier-output" class="tool-output" rows="12" readonly></textarea>
+  <button class="button primary copy-button" data-copy-target="votifier-output">Copy checklist</button>
+</div>

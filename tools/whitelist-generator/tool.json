@@ -1,0 +1,33 @@
+{
+  "title": "Minecraft Whitelist Command Generator | Add Multiple Players",
+  "description": "Generate Minecraft whitelist commands for adding, removing, enabling, or disabling whitelist access for multiple players.",
+  "badge": "Whitelist",
+  "group": "Commands",
+  "keywords": [
+    "minecraft whitelist command",
+    "whitelist generator",
+    "minecraft whitelist add multiple"
+  ],
+  "h1": "Minecraft Whitelist Command Generator",
+  "intro": "Paste player names and generate whitelist commands for small events, private SMPs, and staff-managed servers.",
+  "toolType": "whitelist",
+  "howTo": [
+    "Paste player names, one per line.",
+    "Choose whether to add, remove, enable, disable, or reload whitelist.",
+    "Copy the generated commands into console."
+  ],
+  "faqs": [
+    [
+      "What is a Minecraft whitelist?",
+      "A whitelist limits server access to approved players."
+    ],
+    [
+      "Can I add multiple players at once?",
+      "Minecraft usually needs one command per player, so this tool generates the list for you."
+    ],
+    [
+      "Should I use usernames or UUIDs?",
+      "For normal server commands, usernames are commonly used. Some server panels may support UUID-based management."
+    ]
+  ]
+}

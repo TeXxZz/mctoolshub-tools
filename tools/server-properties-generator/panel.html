@@ -1,0 +1,19 @@
+<div class="tool-panel" data-tool="properties">
+      <div class="two-col">
+        <label>Server MOTD<input id="prop-motd" class="tool-input single" value="A Minecraft Server"></label>
+        <label>Max players<input id="prop-max" class="tool-input single" type="number" min="1" max="1000" value="20"></label>
+        <label>Difficulty<select id="prop-difficulty" class="tool-input single"><option>peaceful</option><option>easy</option><option selected>normal</option><option>hard</option></select></label>
+        <label>Gamemode<select id="prop-gamemode" class="tool-input single"><option selected>survival</option><option>creative</option><option>adventure</option><option>spectator</option></select></label>
+        <label>Online mode<select id="prop-online" class="tool-input single"><option selected>true</option><option>false</option></select></label>
+        <label>Whitelist<select id="prop-whitelist" class="tool-input single"><option>false</option><option>true</option></select></label>
+        <label>PvP<select id="prop-pvp" class="tool-input single"><option selected>true</option><option>false</option></select></label>
+        <label>View distance<input id="prop-view" class="tool-input single" type="number" min="2" max="32" value="10"></label>
+        <label>Simulation distance<input id="prop-sim" class="tool-input single" type="number" min="2" max="32" value="10"></label>
+        <label>Server port<input id="prop-port" class="tool-input single" type="number" min="1" max="65535" value="25565"></label>
+      </div>
+      <button class="button primary generate-button" data-generate type="button">Generate server.properties</button>
+      <label class="field-label" for="properties-output">Generated server.properties</label>
+      <textarea id="properties-output" class="tool-output" rows="14" readonly></textarea>
+      <button class="button primary copy-button" data-copy-target="properties-output">Copy server.properties</button>
+      <button class="button secondary" id="download-properties" type="button">Download server.properties</button>
+    </div>
