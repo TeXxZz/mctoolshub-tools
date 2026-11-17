@@ -51,7 +51,9 @@ scripts/build.mjs           builds the local preview into site/
 
 PRs are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-If you run a server you might also like [MinecraftServersList](https://minecraftservers-list.com) (vote-based server list) and [MCHostingHub](https://mchostinghub.com) (hosting comparison). Setup guides are on [mctoolshub.com/guides](https://mctoolshub.com/guides).
+## My other projects
+
+[MinecraftServersList](https://minecraftservers-list.com) · [DiscordBase](https://discordbase.com) · [MCHostingHub](https://mchostinghub.com) · [MCPlayerTools](https://mcplayertools.com)
 
 ## License
 
